@@ -19,6 +19,12 @@ git clone https://github.com/omoNattie/freeze
 
 cd freeze
 
+python3 -m venv freezenv
+
+source freezenv/bin/source
+
+pip install -r requirements.txt
+
 pyinstaller freeze.py
 
 cd dist/freeze/
