@@ -1,0 +1,9 @@
+.idea/
+
+.vs/
+
+.vscode/
+
+freezenv/
+
+src/__pycache__/
